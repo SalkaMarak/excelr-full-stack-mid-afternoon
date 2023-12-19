@@ -9,7 +9,7 @@ class T
 	public static void main(String[] args) 
 	{
 		int i = test(200);
-		long lon = test(10.0); //no need casting here.
+		long lon = test(10.0); 
 		System.out.println("i: " + i + " , " + "lon: " + lon + " done");
 	}
 }
