@@ -1,0 +1,10 @@
+package excelr;
+
+public class HelloWorld 
+{
+	public static void main(String[] args) //main cont+space
+	{
+		System.out.println("Hello World!"); //syso + cont space
+	}
+}
+//cont + F11 to run

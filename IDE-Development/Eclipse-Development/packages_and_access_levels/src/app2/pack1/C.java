@@ -1,0 +1,28 @@
+package app2.pack1;
+class B
+{
+	private int i;
+	private void test()
+	{
+		System.out.print("from B test");
+	}
+}
+
+class C extends B
+
+{
+	public static void main(String[] args) 
+	{
+		B b1 = new B(); 
+		//System.out.println(b1.i); 
+		//b1.test();
+	}
+}
+
+/*
+----There are 4 access specifiers in java----
+private, default, protected, public
+
+1. private access specifiers: we can use within the class ONLY, only limited to class itself.
+
+*/
